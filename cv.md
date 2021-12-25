@@ -9,3 +9,13 @@ tel:+375447972064
 # About me
 My goal is to learn front-end development. Persevering, purposeful. Analytical mind. Fast learner. Good understanding of algorithms and principles of software construction. I have experience with various technologies, I also have experience with orders and employers.
 ====
+# Skills
+## programming languages
+Phyton, Delphi, Pascal, Js
+## frontend technology
+Html, CSS, SCSS
+## Frameworks
+JQuery, React
+## Programs
+Unity, Blender
+===
