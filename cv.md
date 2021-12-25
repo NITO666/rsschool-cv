@@ -1,14 +1,17 @@
-**First name** - Egor 
+**First name** - Egor
+
+
 **Last name** - Lagun
-====
 # Сontacts for communication:
 [vk](https://vk.com/id179141729)
+
+
 [github](https://github.com/NITO666)
+
+
 tel:+375447972064
-====
 # About me
 My goal is to learn front-end development. Persevering, purposeful. Analytical mind. Fast learner. Good understanding of algorithms and principles of software construction. I have experience with various technologies, I also have experience with orders and employers.
-====
 # Skills
 ## programming languages
 Phyton, Delphi, Pascal, Js
@@ -18,9 +21,8 @@ Html, CSS, SCSS
 JQuery, React
 ## Programs
 Unity, Blender
-===
 # Сode examples
-## verification of the Belarusian number
+## Verification of the Belarusian number
 ```
 let telMass = telvalue.split('');
 	console.log(telMass)
@@ -55,10 +57,11 @@ let telMass = telvalue.split('');
 		alert('Не верный номер')
 	}
 ```
-===
 # Education
 Completed secondary education
-===
+
+
 4th year at the university in the engineering specialty
-===
+
+
 Completed courses from Way Up
