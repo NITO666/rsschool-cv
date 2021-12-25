@@ -56,3 +56,9 @@ let telMass = telvalue.split('');
 	}
 ```
 ===
+# Education
+Completed secondary education
+===
+4th year at the university in the engineering specialty
+===
+Completed courses from Way Up
