@@ -65,3 +65,5 @@ Completed secondary education
 
 
 Completed courses from Way Up
+# English
+My English level is A2 or higher
