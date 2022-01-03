@@ -10,8 +10,91 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="">CV Cross-Check</h1>
+            <h1 class="taskname">CV Cross-Check</h1>
         </div>
     </header>
+    <main class="info">
+      <div class="container">
+        <div class="info-body">
+          <div class="name">
+            <h2 class="firstname">First name - Egor</h2>
+            <h2 class="lastname">Last name - Lagun</h2>
+          </div>
+          <div class="about">
+            <div class="photo"><img src="img/photo.jpg"></div>
+            <div class="resume">
+              <p>My goal is to learn front-end development. Persevering, purposeful. Analytical mind. Fast learner. Good understanding of algorithms and principles of software construction. 
+              I have experience with various technologies, I also have experience with orders and employers.
+              </p>
+          </div>
+          <div class="skills">
+            <div class='languages'>
+              <p> Phyton, Delphi, Pascal, Js </p>
+            </div>
+            <div class="tech">Html, CSS, SCSS</div>
+            <div class="frameworks">JQuery, React</div>
+            <div class="programs">Unity, Blender</div>
+            <div class="example">
+              <h3>Verification of the Belarusian number</h3>
+              <pre>
+                <code>
+                  let telMass = telvalue.split('');
+	                console.log(telMass)
+	                if (telMass[0] === '+' && telMass.length == 13){
+	                  let pr1 = [3,7,5];
+		                for( i = 1; i <=3;i++){
+			                let m = parseInt(telMass[i]);
+			                if(m == pr1[i-1]){
+				                chk = true;
+			                }else{
+				                chk = false;
+				                break
+			                }
+		                }
+		                  if (chk){
+			                  for (let i = 3; i < telMass.length;i++){
+				                  let m = parseInt(telMass[i]);
+				                  if(isNaN(m)==false){
+					                  chk = true;
+				                  }else{
+					                  chk = false;
+					                  break
+				                  }
+			                  }
+		                  }
+	                  }
+	
+	                if (chk){
+		                alert('Номер верный')
+		                chk = false;
+	                }else{
+		                alert('Не верный номер')
+	                }
+                </code>
+              </pre>
+            </div>
+          </div>
+          <div class="education">
+            <p>Completed secondary education
+
+              4th year at the university in the engineering specialty
+              
+              Completed courses from Way Up</p>
+          </div>
+          <div class="english">
+            <p>My English level is A2 or higher</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="contacts">
+          <a href="https://vk.com/id179141729" >VK</a>
+          <a href="https://github.com/NITO666">github</a>
+          <a href="tel:+375447972064">+375447972064</a>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>

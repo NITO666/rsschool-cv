@@ -1,1 +1,15 @@
-/* some text */
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
