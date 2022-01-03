@@ -1,1 +1,97 @@
-/* some text */
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  p,h1,h2,h3,h4 {
+    margin: 0;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .header{
+    background-color: black;
+    height: 140px;
+  }
+  .taskname{
+    color: white;
+  }
+  .info_resume{
+    display: flex;
+    justify-content:space-between;
+  }
+  .photo{
+    flex: 0 0 30%;
+  }
+  .photo img{
+    max-width: 100%;
+  }
+  .resume{
+    margin-top: 5px;
+    flex: 0 0 68%;
+  }
+ .name{
+  margin-top: 5px;
+ }
+ .resumeP{
+  margin-top: 5px;
+ }
+ .skills,.skills div{
+  margin-top: 5px;
+ }
+  .example,.example h4{
+    margin-top: 10px;
+  }
+  .english{
+    margin-top: 10px;
+  }
+  .footer{
+    background-color: black;
+    margin-top: 10px;
+  }
+  .contacts{
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    display: flex;  
+    flex-direction:column;
+    justify-content: flex-end;
+  }
+  .contacts_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  footer a{
+    color: white;
+    text-decoration: unset;
+    font-size: 20px;
+  }
+  .forborder{
+    display: inline-flex;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px;
+  }
+  .logo div{
+    background-color: white;
+  }
+  footer img{
+    height: 40px;
+  }
+  .year{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  

@@ -1,1 +1,126 @@
-<p>some text</p>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>CV. Cross-Check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="forborder"><h1 class="taskname">CV Cross-Check</h1></div>
+        </div>
+    </header>
+    <main class="info">
+      <div class="container">
+        <div class="info-body">
+          <div class="about">
+            <div class="info_resume">
+              <div class="photo"><img src="photo.jpg" alt="photo"></div>
+              <div class="resume">
+               <h2 class="aboutH2"> About me</h2>
+               <div class="name">
+                <h3 class="nameH3">First name - Egor</h3>
+                <h3 class="nameH3">Last name - Lagun</h3>
+              </div>
+               <p class="resumeP">My goal is to learn front-end development. Persevering, purposeful. Analytical mind. Fast learner. Good understanding of algorithms and principles of software construction. 
+               I have experience with various technologies, I also have experience with orders and employers.
+               </p>
+               <div class="skills">
+                <h3 class="skillsH3"> Skills </h3>
+                 <div class='languages'>
+                  <h4>programming languages</h4>
+                  <p> Phyton, Delphi, Pascal, Js </p>
+                 </div>
+                <div class="tech">
+                  <h4>Frontend technology</h4>
+                  <p>Html, CSS, SCSS</p>
+                </div>
+                <div class="frameworks">
+                  <h4>Frameworks</h4>
+                  <p>JQuery, React</p>
+                </div>
+                <div class="programs">
+                  <h4>Programs</h4>
+                  <p>Unity, Blender</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="example">
+            <h3>Code example</h3>
+            <h4>Verification of the Belarusian number</h4>
+            <pre>
+              <code>
+                let telMass = telvalue.split('');
+                console.log(telMass)
+                if (telMass[0] === '+' && telMass.length == 13){
+                  let pr1 = [3,7,5];
+                  for( i = 1; i &lt; = 3;i++){
+                    let m = parseInt(telMass[i]);
+                    if(m == pr1[i-1]){
+                      chk = true;
+                    }else{
+                      chk = false;
+                      break
+                    }
+                  }
+                    if (chk){
+                      for (let i = 3; i &lt; telMass.length;i++){
+                        let m = parseInt(telMass[i]);
+                        if(isNaN(m)==false){
+                          chk = true;
+                        }else{
+                          chk = false;
+                          break
+                        }
+                      }
+                    }
+                  }
+
+                if (chk){
+                  alert('Номер верный')
+                  chk = false;
+                }else{
+                  alert('Не верный номер')
+                }
+              </code>
+            </pre>
+          </div>
+          <div class="education">
+            <h3>Education</h3>
+            <p>Completed secondary education
+
+              4th year at the university in the engineering specialty
+              
+              Completed courses from Way Up</p>
+          </div>
+          <div class="english">
+            <h3>English level</h3>
+            <p>My English level is A2 or higher</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="contacts">
+          <div class="logo">
+            <div class="forborder">
+              <a class="icon" href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg"  alt="icon">
+              </a>
+            </div>
+          </div>
+          <div class="contacts_container">
+            <div class="forborder"><a href="https://vk.com/id179141729" >VK</a></div>
+            <div class="forborder"><a href="https://github.com/NITO666">github</a></div>
+            <div class="forborder"><a href="tel:+375447972064">+375447972064</a></div>
+          </div>
+        </div>
+        <div class="year"><p>2022</p></div>
+      </div>
+    </footer>
+</body>
+</html>
