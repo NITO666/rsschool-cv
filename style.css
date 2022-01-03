@@ -4,13 +4,14 @@ body {
     margin: 0;
   }
   
-  p {
+  p,h1,h2,h3,h4 {
     margin: 0;
   }
   
   .container {
     width: 1200px;
     margin: 0 auto;
+    height: 100%;
   }
   .header{
     background-color: black;
@@ -18,21 +19,57 @@ body {
   }
   .taskname{
     color: white;
-    margin:0;
-  }
-  .nameH2{
-
   }
   .info_resume{
     display: flex;
+    justify-content:space-between;
   }
   .photo{
     flex: 0 0 30%;
   }
-  .resume{
-    flex: 0 0 70%;
-  }
   .photo img{
     max-width: 100%;
-  } 
-  
+  }
+  .resume{
+    margin-top: 5px;
+    flex: 0 0 68%;
+  }
+ .name{
+  margin-top: 5px;
+ }
+ .resumeP{
+  margin-top: 5px;
+ }
+ .skills,.skills div{
+  margin-top: 5px;
+ }
+  .example,.example h4{
+    margin-top: 10px;
+  }
+  .english{
+    margin-top: 10px;
+  }
+  .footer{
+    background-color: black;
+    height: 140px;
+    margin-top: 10px;
+  }
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  footer a{
+    color: white;
+    text-decoration: unset;
+    font-size: 20px;
+  }
+  .forborder{
+    display: inline-flex;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px;
+  }
