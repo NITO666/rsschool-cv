@@ -9,7 +9,30 @@ body {
   }
   
   .container {
-    width: 600px;
+    width: 1200px;
     margin: 0 auto;
   }
+  .header{
+    background-color: black;
+    height: 140px;
+  }
+  .taskname{
+    color: white;
+    margin:0;
+  }
+  .nameH2{
+
+  }
+  .info_resume{
+    display: flex;
+  }
+  .photo{
+    flex: 0 0 30%;
+  }
+  .resume{
+    flex: 0 0 70%;
+  }
+  .photo img{
+    max-width: 100%;
+  } 
   

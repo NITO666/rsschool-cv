@@ -3,9 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>CV. Cross-Check</title>
-    <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
@@ -16,63 +14,67 @@
     <main class="info">
       <div class="container">
         <div class="info-body">
-          <div class="name">
-            <h2 class="firstname">First name - Egor</h2>
-            <h2 class="lastname">Last name - Lagun</h2>
-          </div>
           <div class="about">
-            <div class="photo"><img src="photo.jpg"></div>
-            <div class="resume">
-              <p>My goal is to learn front-end development. Persevering, purposeful. Analytical mind. Fast learner. Good understanding of algorithms and principles of software construction. 
-              I have experience with various technologies, I also have experience with orders and employers.
-              </p>
+            <div class="info_resume">
+              <div class="photo"><img src="photo.jpg" alt="photo"></div>
+              <div class="resume">
+               <h2 class="aboutH2"> About me</h2>
+               <div class="name">
+                <h3 class="nameH3">First name - Egor</h3>
+                <h3 class="nameH3">Last name - Lagun</h3>
+              </div>
+               <p>My goal is to learn front-end development. Persevering, purposeful. Analytical mind. Fast learner. Good understanding of algorithms and principles of software construction. 
+               I have experience with various technologies, I also have experience with orders and employers.
+               </p>
+               <div class="skills">
+                <h3 class="skillsH3"> Skills </h3>
+                 <div class='languages'>
+                  <p> Phyton, Delphi, Pascal, Js </p>
+                 </div>
+                <div class="tech">Html, CSS, SCSS</div>
+                <div class="frameworks">JQuery, React</div>
+                <div class="programs">Unity, Blender</div>
+              </div>
+            </div>
           </div>
-          <div class="skills">
-            <div class='languages'>
-              <p> Phyton, Delphi, Pascal, Js </p>
-            </div>
-            <div class="tech">Html, CSS, SCSS</div>
-            <div class="frameworks">JQuery, React</div>
-            <div class="programs">Unity, Blender</div>
-            <div class="example">
-              <h3>Verification of the Belarusian number</h3>
-              <pre>
-                <code>
-                  let telMass = telvalue.split('');
-	                console.log(telMass)
-	                if (telMass[0] === '+' && telMass.length == 13){
-	                  let pr1 = [3,7,5];
-		                for( i = 1; i <=3;i++){
-			                let m = parseInt(telMass[i]);
-			                if(m == pr1[i-1]){
-				                chk = true;
-			                }else{
-				                chk = false;
-				                break
-			                }
-		                }
-		                  if (chk){
-			                  for (let i = 3; i < telMass.length;i++){
-				                  let m = parseInt(telMass[i]);
-				                  if(isNaN(m)==false){
-					                  chk = true;
-				                  }else{
-					                  chk = false;
-					                  break
-				                  }
-			                  }
-		                  }
-	                  }
-	
-	                if (chk){
-		                alert('Номер верный')
-		                chk = false;
-	                }else{
-		                alert('Не верный номер')
-	                }
-                </code>
-              </pre>
-            </div>
+          <div class="example">
+            <h3>Verification of the Belarusian number</h3>
+            <pre>
+              <code>
+                let telMass = telvalue.split('');
+                console.log(telMass)
+                if (telMass[0] === '+' && telMass.length == 13){
+                  let pr1 = [3,7,5];
+                  for( i = 1; i &lt; = 3;i++){
+                    let m = parseInt(telMass[i]);
+                    if(m == pr1[i-1]){
+                      chk = true;
+                    }else{
+                      chk = false;
+                      break
+                    }
+                  }
+                    if (chk){
+                      for (let i = 3; i &lt; telMass.length;i++){
+                        let m = parseInt(telMass[i]);
+                        if(isNaN(m)==false){
+                          chk = true;
+                        }else{
+                          chk = false;
+                          break
+                        }
+                      }
+                    }
+                  }
+
+                if (chk){
+                  alert('Номер верный')
+                  chk = false;
+                }else{
+                  alert('Не верный номер')
+                }
+              </code>
+            </pre>
           </div>
           <div class="education">
             <p>Completed secondary education
@@ -85,6 +87,7 @@
             <p>My English level is A2 or higher</p>
           </div>
         </div>
+      </div>
       </div>
     </main>
     <footer class="footer">
